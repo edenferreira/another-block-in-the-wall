@@ -1,0 +1,5 @@
+#kaocha/v1
+    {:plugins [:kaocha.plugin/print-invocations]
+     :tests [{:id          :unit
+              :test-paths  ["test" "src"]
+              :ns-patterns [".*"]}]}
